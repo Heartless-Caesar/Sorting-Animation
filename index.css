@@ -1,0 +1,42 @@
+.main-div {
+    width: 100%;
+    height: 100%;
+}
+
+.div-el-1 {
+    animation-name: el-1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* .div-el-2 {
+}
+.div-el-3 {
+}
+.div-el-4 {
+}
+.div-el-5 {
+}
+.div-el-6 {
+}
+.div-el-7 {
+} */
+
+@keyframes el-1 {
+    0% {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    25% {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    50% {
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    100% {
+        margin-top: 0px;
+        margin-left: 150px;
+    }
+}
