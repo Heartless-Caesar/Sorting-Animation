@@ -1,5 +1,7 @@
 # Animação Algoritmo de Ordenação
 
+  Essa animação simples é feita em HTML, CSS e JS.
+  
 - Quicksort:  
 
    É um algoritmo de ordenação que segue o princípio de dividir para conquistar. Nele um elemento pivô é escolhido para servir como o foco e os elementos ao seu redor são ordenados de forma que o pivô esteja na sua posição final; 
