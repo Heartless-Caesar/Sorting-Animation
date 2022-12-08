@@ -5,6 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
         <title>Animação Quick sort</title>
     </head>
     <body>
@@ -16,6 +22,56 @@
             <div class="div-el-5">140</div>
             <div class="div-el-6">150</div>
             <div class="div-el-7">170</div>
+        </div>
+        <div
+            style="
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            "
+        >
+            <div style="margin-bottom: 20px">
+                <h2>
+                    A animação acima representa o Quick Sort. Nesse exemplo o
+                    último elemento é escolhido como pivô
+                </h2>
+            </div>
+            <br />
+            <div style="margin-bottom: 20px; padding: 20px">
+                Dentro do código que realiza a partição dos valores que estão
+                dentro de um vetor há uma comparação, para que um elemento seja
+                alterado de posição ele irá comparar o atual elemento dado pelo
+                índice "i" e comparar com o de índice "j", em que o valor de j é
+                o dobro o valor de i sendo que quando i = 0 -> j = 1.
+            </div>
+            <br />
+            <div style="margin-bottom: 20px; padding: 20px">
+                Com isso todos os elementos estarão ordenados fora o elemento
+                pivô, que por sua vez irá ser trocado com o elemento i + 1,
+                assim desordenado novamente os três últimos elementos, que serão
+                particionados e ordenados e com isso sendo inseridos no final do
+                vetor com todos os elementos finalmente ordenados.
+            </div>
+            <div style="margin-bottom: 150px; font-size: 1.5rem">
+                Ordem de alteração dos elementos
+            </div>
+            <div
+                style="
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 50px;
+                    transform: translateX(-250px);
+                "
+            >
+                <ul style="list-style: none">
+                    <li style="margin-bottom: 20px"><div>180 <-> 130</div></li>
+                    <li style="margin-bottom: 20px"><div>180 <-> 140</div></li>
+                    <li style="margin-bottom: 20px"><div>190 <-> 150</div></li>
+                    <li style="margin-bottom: 20px"><div>170 <-> 180</div></li>
+                    <li style="margin-bottom: 20px"><div>180 <-> 190</div></li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>
